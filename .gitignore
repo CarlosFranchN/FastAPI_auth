@@ -1,0 +1,25 @@
+# Arquivo .gitignore para projetos Python/FastAPI
+
+# Ambiente Virtual
+venv/
+/venv/
+.venv/
+
+# Arquivos de dependências do sistema
+.env
+*.env
+.env.*
+
+# Banco de dados SQLite
+*.db
+*.db-journal
+
+# Caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches e configurações de IDEs
+.vscode/
+.idea/
